@@ -8,7 +8,7 @@ import javax.swing.SwingUtilities;
 
 /**
  *
- * @author marcin
+ * @author marcin kaszuba
  */
 public class JavaSwingZegarV2 {
 
