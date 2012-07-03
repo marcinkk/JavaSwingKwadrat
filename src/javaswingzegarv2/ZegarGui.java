@@ -104,7 +104,6 @@ public class ZegarGui extends JFrame{
         graphics.setColor(Color.BLACK);
         graphics.drawLine(200, 200, 200 + x2Minuty, 200 + y2Minuty);//wskazowka minutowa
         graphics.drawLine(200, 200, 200 + x2Godziny, 200 + y2Godziny);//wskazowka godzinowa
-        
     }
     
 }
