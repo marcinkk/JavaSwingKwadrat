@@ -99,6 +99,7 @@ public class ZegarGui extends JFrame{
         
         x2Godziny = (int)(100 * (Math.cos(katRadGodzin)));
         y2Godziny = (int)(100 * (Math.sin(katRadGodzin)));
+        
         graphics.setColor(Color.red);
         graphics.drawLine(200, 200, 200 + x2Sekundy, 200 + y2Sekundy);//wskazowka sekundowa
         graphics.setColor(Color.BLACK);
