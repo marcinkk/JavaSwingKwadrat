@@ -9,7 +9,7 @@ import java.util.TimerTask;
  *
  * @author marcin
  */
-public class KlasaZadanie extends TimerTask{
+public class KlasaTask extends TimerTask{
     
     int pozX = 50;
     int pozY = 50;

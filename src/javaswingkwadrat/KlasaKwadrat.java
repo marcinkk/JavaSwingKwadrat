@@ -24,7 +24,7 @@ public class KlasaKwadrat extends JFrame{
     private int height = 600;
     private Dimension dimension = new Dimension(width, height);
     JPanel jPanel = new JPanel(true);
-    KlasaZadanie klasaZadanie = new KlasaZadanie();
+    KlasaTask klasaZadanie = new KlasaTask();
     Timer timer;
     Image bufor;
     Graphics bg;
