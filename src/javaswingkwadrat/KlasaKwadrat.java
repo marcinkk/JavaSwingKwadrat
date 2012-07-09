@@ -23,7 +23,7 @@ public class KlasaKwadrat extends JFrame{
     private int width = 800;
     private int height = 600;
     private Dimension dimension = new Dimension(width, height);
-    JPanel jPanel = new JPanel();
+    JPanel jPanel = new JPanel(true);
     KlasaZadanie klasaZadanie = new KlasaZadanie();
     Timer timer;
     Image bufor;
@@ -39,7 +39,6 @@ public class KlasaKwadrat extends JFrame{
         
         bufor = createImage(width, height);
         bg = bufor.getGraphics();
-        
         timer = new Timer(10, new ActionListener() {
 
             @Override
@@ -55,7 +54,7 @@ public class KlasaKwadrat extends JFrame{
     public void update(Graphics graphics){
         bg.clearRect(0, 0, width, height);
         paint(bg);
-        graphics.drawImage(bufor, 0, 0, this.jPanel);
+        graphics.drawImage(bufor, 0, 0, jPanel);
     }
     
     @Override

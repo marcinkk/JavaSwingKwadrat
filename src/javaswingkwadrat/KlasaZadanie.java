@@ -37,7 +37,7 @@ public class KlasaZadanie extends TimerTask{
                 break;
             case 3:
                 licznik++;
-                pozX--;;
+                pozX--;
                 if(licznik == 600){
                     licznik = 0;
                     kierunek = 4;
